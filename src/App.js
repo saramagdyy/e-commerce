@@ -20,14 +20,14 @@ const App = () => {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="e-commerce/" element={<Home />} />
-            <Route path="e-commerce//login" element={<Login />} />
-            <Route path="e-commerce//register" element={<Register />} />
-            <Route path="e-commerce//order-history" element={<OrderHistory />} />
-            <Route path="e-commerce//cart" element={<Cart />} />
-            <Route path="e-commerce//products/:id" element={<ProductDetail />} />
-            <Route path="e-commerce//checkout" element={<CheckoutPage />} />
-            <Route path="e-commerce//order-confirmation" element={<OrderConfirmation />} />
+            <Route path="/e-commerce/" element={<Home />} />
+            <Route path="/e-commerce/login" element={<Login />} />
+            <Route path="/e-commerce/register" element={<Register />} />
+            <Route path="/e-commerce/order-history" element={<OrderHistory />} />
+            <Route path="/e-commerce/cart" element={<Cart />} />
+            <Route path="/e-commerce/products/:id" element={<ProductDetail />} />
+            <Route path="/e-commerce/checkout" element={<CheckoutPage />} />
+            <Route path="/e-commerce/order-confirmation" element={<OrderConfirmation />} />
           </Routes>
         </Router>
       </CartProvider>
