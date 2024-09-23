@@ -12,7 +12,7 @@ const Navbar = () => {
         <h1 className="text-white text-2xl font-bold">My Store</h1>
         <div>
           <Link
-            to="/"
+            to="/e-commerce/"
             className="text-white px-4 py-2 rounded hover:bg-white hover:text-blue-800 transition duration-200"
           >
             Home
@@ -20,13 +20,13 @@ const Navbar = () => {
           {user ? (
             <>
               <Link
-                to="/cart"
+                to="/e-commerce/cart"
                 className="text-white px-4 py-2 rounded hover:bg-white hover:text-blue-800 transition duration-200"
               >
                 Cart
               </Link>
               <Link
-                to="/order-history"
+                to="/e-commerce/order-history"
                 className="text-white px-4 py-2 rounded hover:bg-white hover:text-blue-800 transition duration-200"
               >
                 Order History
@@ -41,13 +41,13 @@ const Navbar = () => {
           ) : (
             <>
               <Link
-                to="/login"
+                to="/e-commerce/login"
                 className="text-white px-4 py-2 rounded hover:bg-white hover:text-blue-800 transition duration-200"
               >
                 Login
               </Link>
               <Link
-                to="/register"
+                to="/e-commerce/register"
                 className="text-white px-4 py-2 rounded hover:bg-white hover:text-blue-800 transition duration-200"
               >
                 Register
